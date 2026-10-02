@@ -1,0 +1,17 @@
+{
+  "name": "Chamorro & Asociados",
+  "short_name": "C&A",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f5f1e8",
+  "theme_color": "#123f35",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "assets/img/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

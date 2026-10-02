@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>{{BASE_URL}}/index.html</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>{{BASE_URL}}/servicios.html</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>{{BASE_URL}}/biblioteca.html</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>{{BASE_URL}}/academia.html</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>{{BASE_URL}}/portal-cliente.html</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>{{BASE_URL}}/calculadoras.html</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>{{BASE_URL}}/asistente-ia.html</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>{{BASE_URL}}/tienda.html</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>{{BASE_URL}}/noticias.html</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>{{BASE_URL}}/cotizador.html</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>{{BASE_URL}}/contacto.html</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>{{BASE_URL}}/privacidad.html</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>{{BASE_URL}}/accesibilidad.html</loc><lastmod>2026-10-01</lastmod></url>
+</urlset>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="96" viewBox="0 0 360 96" role="img" aria-labelledby="title desc">
+      <title id="title">Logo provisional de Chamorro &amp; Asociados</title><desc id="desc">Símbolo original creado para el prototipo.</desc>
+      <rect x="2" y="2" width="92" height="92" rx="22" fill="#123f35"/>
+      <g color="#ffffff" transform="translate(0 0)"><rect x="22" y="14" width="52" height="68" rx="5" fill="none" stroke="currentColor" stroke-width="5"/><path d="M34 33H62M34 48H62M34 63H49M56 64L63 71 76 55" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></g><text x="112" y="48" font-family="Arial" font-size="25" font-weight="800" fill="#14241f">Chamorro &amp; Asociados</text>
+      <text x="112" y="70" font-family="Arial" font-size="11" letter-spacing="2.3" fill="#64716c">IDENTIDAD PROVISIONAL</text>
+    </svg>

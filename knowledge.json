@@ -1,0 +1,93 @@
+{
+  "entity": {
+    "name": "Chamorro & Asociados",
+    "type": "AccountingService",
+    "description": "Firma de auditoría, outsourcing contable y asesoría tributaria, societaria, laboral, NIIF, PLA/FT, financiera y legal.",
+    "directAnswer": "Chamorro & Asociados integra auditoría, contabilidad, impuestos, legal y cumplimiento en una plataforma que informa, capacita y permite a clientes gestionar requerimientos y consultas.",
+    "language": "es"
+  },
+  "sourceRecord": {
+    "student": "Byron Chamorro",
+    "projectType": "ambos",
+    "businessDescription": "una firma auditora pequeña, que presta servicios profesionales de Auditoria, outsourcing contable, consultoría y asesoría tributaria, contable, societaria, laboral, NIIF, PLA/FT, análisis financiero y legal, también somos abogados tributarios, laborales, societarios y PLA/FT",
+    "technicalDetails": "una firma auditora pequeña, que presta servicios profesionales de Auditoria, outsourcing contable, consultoría y asesoría tributaria, contable, societaria, laboral, NIIF, PLA/FT, análisis financiero y legal, también somos abogados tributarios, laborales, societarios y PLA/FT,  adicional necesitamos: 1. un apartado de noticias, 2. una biblioteca jurídica actualizada donde nuestros clientes puedan ingresar y descargar la normativa actual, 3. Un apartado para una academia de cursos sincrónicos y asincrónicos que controle, herramientas, materiales, alumnos, certificados, etc, 4. Un apartado donde los clientes puedan cargar los requerimientos de información de auditoría, contabilidad y asesoría, 5. un apartado donde una IA pueda resolver consultas básicas del día a día con la información de la biblioteca jurídica y calculadoras tributarias y laborales, 6. Una tienda para diversos materiales, plantillas automatizadas en excel, servicios, etc, 7. un cotizador de servicios personalizado, 8. en general que nuestra página sea una herramienta para nuestros clientes"
+  },
+  "pages": [
+    {
+      "url": "index.html",
+      "name": "Inicio",
+      "purpose": "home"
+    },
+    {
+      "url": "servicios.html",
+      "name": "Servicios",
+      "purpose": "services"
+    },
+    {
+      "url": "biblioteca.html",
+      "name": "Biblioteca jurídica",
+      "purpose": "library"
+    },
+    {
+      "url": "academia.html",
+      "name": "Academia",
+      "purpose": "courses"
+    },
+    {
+      "url": "portal-cliente.html",
+      "name": "Portal cliente",
+      "purpose": "dashboard"
+    },
+    {
+      "url": "calculadoras.html",
+      "name": "Calculadoras",
+      "purpose": "calculators"
+    },
+    {
+      "url": "asistente-ia.html",
+      "name": "Asistente IA",
+      "purpose": "assistant"
+    },
+    {
+      "url": "tienda.html",
+      "name": "Tienda",
+      "purpose": "shop"
+    },
+    {
+      "url": "noticias.html",
+      "name": "Noticias",
+      "purpose": "insights"
+    },
+    {
+      "url": "cotizador.html",
+      "name": "Cotizador",
+      "purpose": "quote"
+    },
+    {
+      "url": "contacto.html",
+      "name": "Contacto",
+      "purpose": "contact"
+    }
+  ],
+  "faq": [
+    {
+      "question": "¿La biblioteca jurídica está actualizada automáticamente?",
+      "answer": "El prototipo define la arquitectura. En producción requiere fuentes oficiales, responsables editoriales, fechas de vigencia y control de versiones."
+    },
+    {
+      "question": "¿La IA reemplaza la consulta profesional?",
+      "answer": "No. Resuelve orientación básica con citas a la biblioteca; asuntos relevantes deben escalarse a un profesional."
+    },
+    {
+      "question": "¿El portal acepta documentos sensibles?",
+      "answer": "La versión productiva debe incorporar autenticación, cifrado, roles, auditoría y políticas de retención antes de recibir documentos reales."
+    }
+  ],
+  "assumptions": [
+    "El nombre de firma no fue proporcionado; se creó una identidad provisional basada en el alumno.",
+    "No se muestran calificaciones, socios, clientes ni certificaciones no aportadas.",
+    "Biblioteca, academia, portal, IA, tienda y calculadoras son prototipos front-end que requieren backend y contenido validado."
+  ],
+  "updated": "2026-10-01",
+  "prototype": true
+}

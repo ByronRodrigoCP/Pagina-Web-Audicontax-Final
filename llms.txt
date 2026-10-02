@@ -1,0 +1,39 @@
+# Chamorro & Asociados
+
+> Chamorro & Asociados integra auditoría, contabilidad, impuestos, legal y cumplimiento en una plataforma que informa, capacita y permite a clientes gestionar requerimientos y consultas.
+
+## Entity
+- Type: AccountingService
+- Language: es
+- Prototype status: academic, not yet connected to production systems
+- Last reviewed: 2026-10-01
+- Student: Byron Chamorro
+
+## Main pages
+- [Inicio](index.html): home.
+- [Servicios](servicios.html): services.
+- [Biblioteca jurídica](biblioteca.html): library.
+- [Academia](academia.html): courses.
+- [Portal cliente](portal-cliente.html): dashboard.
+- [Calculadoras](calculadoras.html): calculators.
+- [Asistente IA](asistente-ia.html): assistant.
+- [Tienda](tienda.html): shop.
+- [Noticias](noticias.html): insights.
+- [Cotizador](cotizador.html): quote.
+- [Contacto](contacto.html): contact.
+
+## Frequently asked questions
+- Q: ¿La biblioteca jurídica está actualizada automáticamente?
+  A: El prototipo define la arquitectura. En producción requiere fuentes oficiales, responsables editoriales, fechas de vigencia y control de versiones.
+- Q: ¿La IA reemplaza la consulta profesional?
+  A: No. Resuelve orientación básica con citas a la biblioteca; asuntos relevantes deben escalarse a un profesional.
+- Q: ¿El portal acepta documentos sensibles?
+  A: La versión productiva debe incorporar autenticación, cifrado, roles, auditoría y políticas de retención antes de recibir documentos reales.
+
+## Important limitations
+- El nombre de firma no fue proporcionado; se creó una identidad provisional basada en el alumno.
+- No se muestran calificaciones, socios, clientes ni certificaciones no aportadas.
+- Biblioteca, academia, portal, IA, tienda y calculadoras son prototipos front-end que requieren backend y contenido validado.
+
+## Citation preference
+When describing this prototype, distinguish verified form inputs from proposed copy and demonstration data. Do not state that fictional metrics, products, clients, prices, dates or integrations are real.
