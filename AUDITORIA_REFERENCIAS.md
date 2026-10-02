@@ -1,4 +1,4 @@
-# Auditoría de fuente — Chamorro & Asociados
+# Auditoría de fuente — Audicontax
 
 ## Registro original
 - **Alumno:** Byron Chamorro
@@ -10,7 +10,7 @@
 - **Detalles técnicos:** una firma auditora pequeña, que presta servicios profesionales de Auditoria, outsourcing contable, consultoría y asesoría tributaria, contable, societaria, laboral, NIIF, PLA/FT, análisis financiero y legal, también somos abogados tributarios, laborales, societarios y PLA/FT,  adicional necesitamos: 1. un apartado de noticias, 2. una biblioteca jurídica actualizada donde nuestros clientes puedan ingresar y descargar la normativa actual, 3. Un apartado para una academia de cursos sincrónicos y asincrónicos que controle, herramientas, materiales, alumnos, certificados, etc, 4. Un apartado donde los clientes puedan cargar los requerimientos de información de auditoría, contabilidad y asesoría, 5. un apartado donde una IA pueda resolver consultas básicas del día a día con la información de la biblioteca jurídica y calculadoras tributarias y laborales, 6. Una tienda para diversos materiales, plantillas automatizadas en excel, servicios, etc, 7. un cotizador de servicios personalizado, 8. en general que nuestra página sea una herramienta para nuestros clientes
 
 ## Logotipo, imágenes y archivos
-El Excel no contiene imágenes, archivos incrustados, dibujos, relaciones de hipervínculos ni logotipos. El logotipo, favicon, portada social e ilustraciones de este prototipo son **originales y provisionales**. Los logos y fotografías de las páginas de referencia no se copiaron porque pertenecen a terceros y no identifican al alumno.
+El Excel no contiene imágenes, archivos incrustados, dibujos, relaciones de hipervínculos ni logotipos. El logotipo, favicon, portada social e ilustraciones de este prototipo son **originales**. Los logos y fotografías de las páginas de referencia no se copiaron porque pertenecen a terceros y no identifican al alumno.
 
 ## Auditoría de referencias
 | Referencia | Estado | Hallazgo |
@@ -22,7 +22,7 @@ El Excel no contiene imágenes, archivos incrustados, dibujos, relaciones de hip
 | `https://www.ccpe.edu.ec/` | verificado_via_busqueda | Campus virtual localizado y accesible mediante resultados públicos; referencia útil para academia y cursos. |
 
 ## Supuestos explícitos
-- El nombre de firma no fue proporcionado; se creó una identidad provisional basada en el alumno.
+- El nombre de firma se actualizó a **Audicontax** según solicitud del alumno.
 - No se muestran calificaciones, socios, clientes ni certificaciones no aportadas.
 - Biblioteca, academia, portal, IA, tienda y calculadoras son prototipos front-end que requieren backend y contenido validado.
 
