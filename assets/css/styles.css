@@ -1,7 +1,7 @@
-/* Generated 2026-10-01 · original design system for Chamorro & Asociados */
+/* Generated 2026-10-01 · design system for Audicontax */
 :root {
   --bg:#f5f1e8; --surface:#fffdf7; --surface-2:#e7e0cf; --text:#14241f; --muted:#64716c;
-  --line:#cfc7b5; --brand:#123f35; --brand-2:#796329; --accent:#b99b4b; --on-brand:#ffffff;
+  --line:#cfc7b5; --brand:#0033a0; --brand-2:#c41e1e; --accent:#e30613; --on-brand:#ffffff;
   --radius:10px; --shadow:0 28px 70px rgba(38,55,46,.12); --font:Arial, Helvetica, sans-serif; --display:Georgia, Times New Roman, serif;
   --max:1180px; --gutter:clamp(18px,4vw,44px); --section:clamp(72px,10vw,140px);
 }
@@ -22,7 +22,7 @@ button{cursor:pointer}
 .site-header{position:sticky;top:0;z-index:80;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(20px);border-bottom:1px solid color-mix(in srgb,var(--line) 72%,transparent)}
 .nav-wrap{min-height:86px;display:flex;align-items:center;justify-content:space-between;gap:28px}
 .brand{display:inline-flex;align-items:center;gap:12px;text-decoration:none;font-weight:850;line-height:1.1}
-.brand img{width:54px;height:54px}
+.brand img{width:54px;height:54px;border-radius:50%}
 .brand small{display:block;color:var(--muted);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;margin-top:5px}
 .site-nav{display:flex;align-items:center;gap:clamp(12px,2vw,26px)}
 .site-nav a{text-decoration:none;font-size:.9rem;font-weight:700;position:relative;padding:12px 0}
@@ -176,40 +176,14 @@ th{font-size:.75rem;text-transform:uppercase;letter-spacing:.08em;color:var(--mu
 .toast.show{transform:translateY(0)}
 .sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
 .empty-state{display:none;padding:30px;text-align:center;border:1px dashed var(--line);color:var(--muted);border-radius:14px}
-/* Strong visual differentiation by theme */
-body[data-theme="fashion"] h1,body[data-theme="fashion"] h2{font-weight:400;letter-spacing:-.045em}
-body[data-theme="fashion"] .topbar{background:var(--text);color:var(--bg)}
-body[data-theme="fashion"] .hero-grid{grid-template-columns:.72fr 1.28fr}
-body[data-theme="fashion"] .hero-art img{border-radius:0}
-body[data-theme="fashion"] .btn,body[data-theme="fashion"] .card,body[data-theme="fashion"] .product-card{border-radius:0}
-body[data-theme="studio"] .card,body[data-theme="studio"] .hero-art img,body[data-theme="studio"] .callout{box-shadow:12px 12px 0 var(--text);border:3px solid var(--text)}
-body[data-theme="studio"] .site-header{background:var(--accent);color:var(--surface)}
-body[data-theme="studio"] .brand small,body[data-theme="studio"] .site-nav a{color:var(--surface)}
-body[data-theme="datagov"] body,body[data-theme="datagov"] .eyebrow{font-family:var(--font)}
-body[data-theme="datagov"] h1,body[data-theme="datagov"] h2{text-transform:uppercase;letter-spacing:-.02em}
-body[data-theme="datagov"] .hero-art img{filter:saturate(1.2) contrast(1.05)}
-body[data-theme="editorial"] .hero-copy{border-left:5px solid var(--brand);padding-left:clamp(20px,3vw,45px)}
-body[data-theme="travel"] .hero-art img,body[data-theme="health"] .hero-art img{border-radius:48% 52% 38% 62% / 44% 38% 62% 56%}
-body[data-theme="industrial"] .eyebrow,body[data-theme="industrial"] h1,body[data-theme="industrial"] h2{text-transform:uppercase}
-body[data-theme="industrial"] .hero-art img{border:10px solid var(--surface2);transform:rotate(1.5deg)}
-body[data-theme="voice"] .hero::after{content:"";position:absolute;left:0;right:0;bottom:30px;height:100px;background:repeating-radial-gradient(ellipse at center,var(--brand) 0 2px,transparent 2px 18px);opacity:.07}
 @media (max-width:980px){
   .menu-toggle{display:block} .site-nav{display:none;position:absolute;left:var(--gutter);right:var(--gutter);top:78px;background:var(--surface);border:1px solid var(--line);padding:18px;flex-direction:column;align-items:stretch;border-radius:16px;box-shadow:var(--shadow)}
   .site-nav.open{display:flex} .site-nav a{padding:10px} .nav-cta{text-align:center}
   .hero-grid,.page-hero .inner,.contact-layout,.assistant-demo,.calculator{grid-template-columns:1fr}
   .hero-art{max-width:760px} .answer-box{grid-template-columns:1fr} .grid-4{grid-template-columns:repeat(2,1fr)}
-  .product-grid,.grid-3{grid-template-columns:repeat(2,minmax(0,1fr))} .step-list{grid-template-columns:repeat(2,1fr)} .step:nth-child(2){border-right:0} .step:nth-child(-n+2){border-bottom:1px solid var(--line)}
-  .dashboard{grid-template-columns:1fr} .dashboard aside{display:flex;gap:8px;overflow:auto} .dashboard aside strong{display:none} .dashboard aside a{white-space:nowrap;margin:0}
-  .assistant-sidebar{border-right:0;border-bottom:1px solid var(--line)}
+  .product-grid,.grid-3{grid-template-columns:repeat(2,minmax(0,1fr))} .step-list{grid-template-columns:repeat(2,1fr)}
 }
-@media (max-width:680px){
-  .topbar .container{display:block} .topbar .container span:last-child{display:none} .brand span{display:none}
-  .hero{padding-top:42px} h1{font-size:clamp(2.7rem,15vw,4.8rem)} .hero-grid{display:flex;flex-direction:column}
-  body[data-theme="fashion"] .hero-grid{display:flex} .hero-art{order:-1} .hero-badge{right:8px}
-  .stats{grid-template-columns:1fr} .grid-2,.grid-3,.grid-4,.product-grid,.form-grid,.metric-grid{grid-template-columns:1fr}
-  .section-head,.callout,.footer-bottom{align-items:start;flex-direction:column;display:flex} .step-list{grid-template-columns:1fr} .step{border-right:0;border-bottom:1px solid var(--line)}
-  .footer-grid{grid-template-columns:1fr} .field.full{grid-column:auto} .dashboard-main{padding:18px} .contact-panel{padding:26px}
-  .product-meta{align-items:flex-start} .answer-box p{font-size:1.17rem}
+@media (max-width:640px){
+  .grid-3,.product-grid,.step-list,.stats,.metric-grid{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr}
 }
-@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
-@media print{.site-header,.topbar,.hero-actions,.callout,.site-footer,.menu-toggle{display:none!important}body{background:#fff;color:#000}.section{padding:30px 0}}
