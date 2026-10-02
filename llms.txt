@@ -1,6 +1,6 @@
-# Chamorro & Asociados
+# Audicontax
 
-> Chamorro & Asociados integra auditoría, contabilidad, impuestos, legal y cumplimiento en una plataforma que informa, capacita y permite a clientes gestionar requerimientos y consultas.
+> Audicontax integra auditoría, contabilidad, impuestos, legal y cumplimiento en una plataforma que informa, capacita y permite a clientes gestionar requerimientos y consultas.
 
 ## Entity
 - Type: AccountingService
@@ -31,7 +31,7 @@
   A: La versión productiva debe incorporar autenticación, cifrado, roles, auditoría y políticas de retención antes de recibir documentos reales.
 
 ## Important limitations
-- El nombre de firma no fue proporcionado; se creó una identidad provisional basada en el alumno.
+- El nombre de firma se actualizó a Audicontax según solicitud del alumno.
 - No se muestran calificaciones, socios, clientes ni certificaciones no aportadas.
 - Biblioteca, academia, portal, IA, tienda y calculadoras son prototipos front-end que requieren backend y contenido validado.
 

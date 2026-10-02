@@ -1,6 +1,6 @@
-# Guía de identidad provisional — Chamorro & Asociados
+# Guía de identidad — Audicontax
 
-Esta identidad fue creada exclusivamente para el prototipo. No implica registro de marca ni aprobación final del alumno.
+Esta identidad fue creada exclusivamente para el prototipo y actualizada a la marca Audicontax.
 
 ## Paleta
 - Fondo: `#f5f1e8`
